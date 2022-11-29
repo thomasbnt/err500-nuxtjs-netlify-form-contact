@@ -10,7 +10,7 @@
                 netlify-honeypot="bot-field">
             <input type="hidden" name="contact" value="contact"/>
             <div class="hidden yesIKnow">
-              <label for="fieldb" id="fieldb">
+              <label for="fieldb">
                 Don’t fill this out if you’re human.
                 <small>Using <a href="https://docs.netlify.com/forms/spam-filters/#honeypot-field">Spam
                   Filter</a></small>
@@ -103,7 +103,6 @@ export default {
         method: "POST",
         headers: {"Content-Type": "application/x-www-form-urlencoded"},
         body: this.encode({
-          "form-name": "contact",
           "email": this.form.email,
           "name": this.form.name,
           "object": this.form.object,
