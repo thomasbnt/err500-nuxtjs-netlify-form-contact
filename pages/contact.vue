@@ -93,8 +93,8 @@ export default {
       this.form.message = '';
     },
     submitForm() {
-      // get id fieldid
-      const noBot = window.document.getElementById("fieldb");
+      // get text from noBot
+      const noBot = window.document.getElementById("fieldb").value
       if (noBot) {
         this.clearForm();
         return alert("You are a bot, please leave this page.");
