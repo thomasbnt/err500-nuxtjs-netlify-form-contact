@@ -1,0 +1,33 @@
+{
+  "name": "error500-nuxt-netlify-form",
+  "version": "1.0.0",
+  "author": "Thomas Bnt",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.10.0",
+    "@nuxt/http": "^0.5.0",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/redirect-module": "^0.3.1",
+    "defu": "^5.0.0",
+    "gsap": "^3.7.1",
+    "lodash": "^4.17.21",
+    "nuxt": "^2.12.2",
+    "remark": "^14.0.2",
+    "remark-footnotes": "^2.0.0",
+    "remark-html": "^15.0.1",
+    "remark-oembed": "^1.2.2",
+    "reqlim": "^0.0.0"
+  },
+  "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.4.0",
+    "@nuxt/types": "~0.7.0",
+    "axios": "^0.21.1"
+  }
+}
