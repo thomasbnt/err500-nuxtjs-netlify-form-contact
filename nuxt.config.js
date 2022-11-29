@@ -38,6 +38,7 @@ export default {
       { name: 'theme-color', content: '#7A3C3C' }
     ],
     link: [
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css' }
     ]
   },
   router: {
