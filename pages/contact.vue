@@ -115,7 +115,7 @@ export default {
           this.form.object = '';
           this.form.category_request = '';
           this.form.message = '';
-          alert(this.$t('EmailWasSent'))
+          alert('The email has been sent successfully.');
         })
         .catch(error => alert(error));
     }
