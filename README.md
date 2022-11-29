@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/77201276-6430-457f-a449-40b76509d837/deploy-status)](https://app.netlify.com/sites/fanciful-sable-68f365/deploys)
+
+
 ## Build Setup
 
 ``` bash
